@@ -91,7 +91,7 @@ form button:hover{
     align-items: center;
     
     color: #FFFFFF; 
-    background-image: url("https://img.freepik.com/photos-gratuite/groupe-amis-mangeant-pizza-maison-ensemble_23-2150419418.jpg?t=st=1730732215~exp=1730735815~hmac=c3346f6dde997aceb9a4ef52047d38485dd223cecb309fb0927e6163006e6c59&w=1800");
+    background-image: url("../asset/image/groupe-amis-mangeant-pizza-maison-ensemble_23-2150419418.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -113,6 +113,52 @@ color: white;
 }
 
 
+@media (max-width: 768px) {
+   
+    #section-connexion {
+     display: flex;
+     flex-direction: column;
+    
+        
+    }
+
+    .create-account{
+        background: linear-gradient(135deg, #5CC8FF, #1A75FF);
+        height: 90%;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        color: #FFFFFF; 
+        background-image: url("../asset/image/groupe-amis-mangeant-pizza-maison-ensemble_23-2150419418.jpg");
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat; 
+        overflow: hidden;
+        
+    }
+
+    form button{
+        width: 50%;  
+        color: white;
+      
+    }
+    
+
+.create-account{
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+    
+
+
+
+}
 
 
 

@@ -99,3 +99,23 @@ button{
     color: white;
 }
 
+
+@media (max-width: 768px) {
+    .cardPizza {
+
+     
+        max-width: 60%; /* Augmente la largeur pour s'adapter à l'écran */
+        margin-bottom: 20px; /* Ajoute un espacement entre les cartes */
+        padding: 15px; /* Réduit le padding pour économiser de l'espace */
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Ajuste l'ombre pour une apparence plus légère */
+        height: 10%;
+    
+    }
+
+    #containerPizza {
+        
+    }
+
+
+
+}
