@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #f5f5f7;
+   overflow-x: hidden;
+}
+
+nav{
+    height: 130px;
+   
+}
+
+nav img{
+    height: 135px;
+ }
+
+nav ul,a{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+    height: 100%;
+    align-items: center;
+  
+}
+
+
+
+h1{
+   font-size: 50px;
+ font-weight: bold;
+ margin: 70px;
+ font-family: sans-serif;
+
+}
+
+
+
+#section-welcome>article{
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20PX;
+ 
+    justify-content: center;
+
+
+
+}
+
+#section-welcome img {
+    height: 300px;
+    opacity: 0; 
+    transform: translateX(100%); 
+    animation: slideIn 2s forwards; 
+    mix-blend-mode: multiply; 
+}
+
+#section-welcome h1 {
+    animation: slideInText 2s forwards;
+
+}
+
+
+
+@keyframes slideInText {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+
+
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+
+@keyframes slideOutLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideOutRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/* Media query pour téléphones */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #f5f5f7;
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 100px; 
+    }
+
+    nav img {
+        height: 100px; 
+    }
+
+    nav ul, a {
+        flex-direction: row; 
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+        color: gray;
+        height: auto;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 32px; 
+        margin: 20px;
+        font-family: sans-serif;
+    }
+
+    #section-welcome > article {
+        flex-direction: column; 
+        margin-top: 10px;
+    }
+
+    #section-welcome img {
+        height: 200px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+
+
+
+#section-connexion {
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+   background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    animation: slideInconnexion 2s ease-out forwards;
+
+    
+}
+
+@keyframes slideInconnexion {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+form{
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+
+form input[type="email"],
+form input[type="password"]{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: transparent;
+    background-color: gray;
+    color: white;
+
+    
+}
+form p{
+    margin: 10px;
+}
+
+form ::placeholder{
+    color: white;
+}
+
+form h2{
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 20Px;
+}
+
+form button{
+    width: 20%;
+   margin: 20px auto;
+   padding: 10px 15px;
+   border-radius: 20px;
+   border: transparent;
+}
+
+form button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.create-account{
+    background: linear-gradient(135deg, #5CC8FF, #1A75FF);
+    height: 100%;
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: #FFFFFF; 
+    background-image: url("https://img.freepik.com/photos-gratuite/groupe-amis-mangeant-pizza-maison-ensemble_23-2150419418.jpg?t=st=1730732215~exp=1730735815~hmac=c3346f6dde997aceb9a4ef52047d38485dd223cecb309fb0927e6163006e6c59&w=1800");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.create-account button{
+background-color: transparent;
+border: solid 1.5px;
+border-color: white;
+margin: 20px auto;
+padding: 10px 15px;
+border-radius: 20px;
+color: white;
+}
+
+.create-account button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
