@@ -8,6 +8,13 @@
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
+    
+
+}
+
+.logo{
+    margin-top: 20px;
+    height: 105px;
 
 }
 h2{
@@ -26,6 +33,7 @@ h2{
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
    
 }
 
@@ -42,6 +50,41 @@ h2{
 .cardPizza:nth-child(3){
     animation: CardRight 2s forwards;
   
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: url("../asset/image/texture-wooden-boards_1249-169.avif");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    background-color: white;
+   
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
 }
 
 
@@ -104,10 +147,10 @@ button{
     .cardPizza {
 
      
-        max-width: 60%; /* Augmente la largeur pour s'adapter à l'écran */
-        margin-bottom: 20px; /* Ajoute un espacement entre les cartes */
-        padding: 15px; /* Réduit le padding pour économiser de l'espace */
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Ajuste l'ombre pour une apparence plus légère */
+        max-width: 60%; 
+        margin-bottom: 20px; 
+        padding: 15px; 
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
         height: 10%;
     
     }

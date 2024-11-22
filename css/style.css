@@ -15,6 +15,7 @@ nav{
 }
 
 nav img{
+    margin-top: 20px;
     height: 135px;
  }
 
@@ -64,9 +65,12 @@ h1{
 }
 
 #section-welcome h1 {
-    animation: slideInText 2s forwards;
+    animation: slideInText 2s ;
 
 }
+
+
+
 
 
 
