@@ -5,8 +5,15 @@
 }
 
 body {
-   background-color: #f5f5f7;
+  background-color: white;
    overflow-x: hidden;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 nav{
@@ -69,6 +76,48 @@ h1{
 
 }
 
+#carouselNews{
+    margin-top: 40px;
+    width: 100vw;
+    height: 60vh;
+   
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.containerCarouselNews{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+
+}
+
+.cardCarousel1{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cardCarousel1  img{
+   
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+ 
+
+}
+
+
 
 
 
@@ -121,6 +170,209 @@ h1{
         transform: translateX(100%);
     }
 }
+
+/* style section Nos Best-sellers */
+
+
+#best-sellers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  
+  
+}
+
+#best-sellers button{
+    position: relative;
+    width: 35%;
+    margin: auto;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 20px;
+    transition: background-color 0.4s ease-in-out; 
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic; 
+}
+
+
+#best-sellers button:hover{
+   background-color: #FFA500;
+   color: white;
+   border-color: white;
+   cursor: pointer;
+}
+
+
+
+.cardBest-sellers{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    background-color: #FFEDCC;;
+   text-align:  center;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    color: black;
+    font-weight: bold;
+    gap: 1rem;
+    transition: transform .2s;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    
+
+}
+
+.cardBest-sellers:hover {
+    transform: scale(1.1);
+    
+}
+
+.cardBest-sellers img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin: auto;
+}
+
+
+.cardInfo img{
+    width: 100%;
+  height: auto;
+  max-height: 200px; /* Ajuste la hauteur pour éviter qu'elle dépasse */
+  object-fit: cover; /* S'assure que l'image remplit bien le cadre sans distorsion */
+  
+}
+
+
+/* style section indécis */
+
+
+#indecis{
+    background-color:#FFEDCC;
+    height: 50vh;
+    width: 100vw;
+    padding: 20px;
+    gap: 20px;
+    margin-bottom: 10%;
+
+}
+
+
+
+#indecis .title{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+   
+    
+    
+
+}
+
+#indecis .subtitle{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: gray;
+    
+    width: 55%;
+
+    
+    
+
+}
+
+
+
+
+#indecis .text{
+    color: black;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+
+
+
+#indecis button{
+    position: relative;
+    width: 35%;
+    margin: auto;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 20px;
+    transition: background-color 0.4s ease-in-out; 
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+}
+
+
+#indecis button:hover{
+
+    background-color: #FFA500;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+  
+}
+
+
+#indecis>div>article{
+   
+   margin-left: 10%;
+   
+   display: flex;
+   flex-direction: column;
+   width: 51%;
+}
+
+#indecis img {
+    height: 100%;
+   
+}
+
+
+
+.containerIndecis{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+/* style section bon plan */
+
+
+
+
+
+
+
 
 /* Media query pour téléphones */
 @media (max-width: 768px) {
